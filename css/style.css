@@ -1,3 +1,11 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;    
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+}
+
+
 .logo {
 font-family: 'Raleway';
 font-weight: 700;
@@ -5,13 +13,81 @@ font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: var(--accent-color);
+}
+
+.link {
+    text-decoration: none;
 }
 
 .logo-dark {
-color: #000;
+color: #000
 }
 
 .logo-light {
-color: #fff;
+color: var(--primary-white-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.travel-link:focus
+.travel-link:hover,
+.travel-link:active {
+    color: var(--accent-color);
+}
+
+.address-nav a {
+    color: var(--primary-text-color);
+}
+
+.address-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.address-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.sait-nav a {
+    color: var(--title-text-color);
+}
+
+.sait-nav .link:hover,
+.sait-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.sait-nav .link.current {
+    color: var(--accent-color);
+}
+/*text*/
+.section-title {
+    color: var(--title-text-color);
+}
+
+.section-text {
+    color: var(--primary-text-color);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--primary-text-color);
+}
+
+/*Button*/
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button-primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button-secondary {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
 }
