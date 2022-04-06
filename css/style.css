@@ -42,7 +42,7 @@ color: var(--primary-light-color);
 
 /*address*/
 .address-nav a {
-    color: var(--primary-text-color);
+    color: var(--primary-light-color);
 }
 
 .address-nav .link:focus {
@@ -53,6 +53,9 @@ color: var(--primary-light-color);
     color: var(--accent-color);
 }
 
+.hero-background {
+    background-color: var(--background-color);
+}
 /*sait*/
 .sait-nav a {
     color: var(--title-text-color);
