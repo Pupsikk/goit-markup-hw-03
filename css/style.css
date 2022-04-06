@@ -1,3 +1,4 @@
+/*color*/
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;    
@@ -5,7 +6,7 @@
     --primary-white-color: #ffffff;
 }
 
-
+/*logo*/
 .logo {
 font-family: 'Raleway';
 font-weight: 700;
@@ -16,10 +17,6 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 }
 
-.link {
-    text-decoration: none;
-}
-
 .logo-dark {
 color: #000
 }
@@ -28,10 +25,16 @@ color: #000
 color: var(--primary-white-color);
 }
 
+/*additions*/
+.link {
+    text-decoration: none;
+}
+
 .list {
     list-style: none;
 }
 
+/*address*/
 .address-nav a {
     color: var(--primary-text-color);
 }
@@ -44,6 +47,7 @@ color: var(--primary-white-color);
     color: var(--accent-color);
 }
 
+/*sait*/
 .sait-nav a {
     color: var(--title-text-color);
 }
@@ -56,12 +60,87 @@ color: var(--primary-white-color);
 .sait-nav .link.current {
     color: var(--accent-color);
 }
+
 /*text*/
+.address-nav {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+
+.sait-nav {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+
+.hero-title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+}
+
+.special-title {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.5;
+    color: var(--title-text-color);
+}
+
+.special-text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+    color: var(--primary-text-color);
+}
+
+.study-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+    color: var(--title-text-color);
+}
+
+.team-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.42;
+text-align: center;
+    color: var(--title-text-color);
+}
+
+.team-title {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+    color: var(--title-text-color);
+}
+
+.team-text {
+    color: var(--primary-text-color);
+}
+
 .section-title {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
     color: var(--title-text-color);
 }
 
 .section-text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
     color: var(--primary-text-color);
 }
 
@@ -74,14 +153,17 @@ body {
 .button {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
+    cursor: pointer;
 }
 
 .button-primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .button-secondary {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
+    cursor: pointer;
 }
