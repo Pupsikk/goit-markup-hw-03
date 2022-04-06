@@ -53,6 +53,10 @@ color: var(--primary-light-color);
     color: var(--accent-color);
 }
 
+.address-up-nav .link {
+    color: var(--primary-text-color);
+}
+
 .address-background {
     background-color: var(--background-color);
 }
@@ -77,6 +81,14 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
+}
+
+.address-up-nav {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;    
 }
 
 .sait-nav {
