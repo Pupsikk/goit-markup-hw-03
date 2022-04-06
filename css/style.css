@@ -3,7 +3,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;    
     --accent-color: #2196f3;
-    --primary-white-color: #ffffff;
+    --primary-light-color: #ffffff;
     --background-color: #2F303A;
 }
 
@@ -23,7 +23,7 @@ color: #000
 }
 
 .logo-light {
-color: var(--primary-white-color);
+color: var(--primary-light-color);
 }
 
 .hero {
@@ -91,7 +91,7 @@ font-size: 44px;
 line-height: 1.4;
 text-align: center;
 letter-spacing: 0.06em;
-    color: var(--primary-white-color);
+    color: var(--primary-light-color);
 }
 
 .special-title {
@@ -168,18 +168,18 @@ body {
 /*Button*/
 .button {
     color: var(--title-text-color);
-    background-color: var(--primary-white-color);
+    background-color: var(--primary-light-color);
     cursor: pointer;
 }
 
 .button-primary {
-    color: var(--primary-white-color);
+    color: var(--primary-light-color);
     background-color: var(--accent-color);
     cursor: pointer;
 }
 
 .button-secondary {
     color: var(--title-text-color);
-    background-color: var(--primary-white-color);
+    background-color: var(--primary-light-color);
     cursor: pointer;
 }
