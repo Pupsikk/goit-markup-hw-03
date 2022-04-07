@@ -59,6 +59,7 @@ clip-path: inset(50%);
 margin: -1px;
 }
 
+/* Для размеров кнопок */
 .dop {
     font-weight: 700;
 font-size: 16px;
@@ -66,6 +67,14 @@ line-height: 1.9;
 display: flex;
 align-items: center;
 text-align: center;
+}
+
+.dopp {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 /*address*/
