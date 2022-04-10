@@ -390,11 +390,11 @@ padding-top: 94px;
     margin-top: 0;
     margin-bottom: 50px;
     min-width: auto;
+    cursor: pointer;
 
     color: var(--primary-light-color);
     background-color: var(--accent-color);
 
-    cursor: pointer;
 }
 
 .button-secondary {
