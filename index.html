@@ -7,13 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 <link rel="stylesheet" href="./css/style.css">    
     <title>Студия</title>
 </head>
     <body>
     <header class="header">
+        <div class="container">
         <nav>
-            <a href="" class="logo link">Web<span class="logo-dark">Studio</span></a>
+            <a href="" class="logo-up link">Web<span class="logo-dark">Studio</span></a>
         <ul class="sait-nav list">
             <li><a href="./index.html" class="link current">Студия</a></li>
             <li><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -28,6 +30,7 @@
                     <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                 </li>
             </ul>
+        </div>
     </header>
         <main>
         <section class="hero">
@@ -36,11 +39,12 @@
                 <br>
                 Для вашего бизнеса
             </h1>
-        <button class="button-primary dop" type="button">Заказать услугу</button>
+        <button class="button-primary-first dop" type="button">Заказать услугу</button>
         </section>
         <section class="special">
+            <div class="container">
         <h2 class="special-header">Особенности</h2>
-            <ul class="list">
+            <ul class="special list">
             <li>
                 <h3 class="special-title">Внимание к деталям</h3>
                 <p class="special-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -58,10 +62,12 @@
                 <p class="special-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>  
             </ul>
+            </div>
         </section>
         <section class="study">
+            <div class="container">
         <h2 class="study-header">Чем мы занимаемся</h2>
-        <ul class="list">
+        <ul class="study list">
             <li>
                 <img src="./images/main/img.jpg" alt="печатет на клавиатуре" width="370" height="294">
             </li>
@@ -72,11 +78,13 @@
                 <img src="./images/main/img2.jpg" alt="показывает фигуру на планшете" width="370" height="294">
             </li>
         </ul>
+            </div>
         </section>
         <section class="team">
+            <div class="container-team">
         <h2 class="team-header">Наша команда</h2>
-            <ul class="list">
-            <li class="team">
+            <ul class="team list">
+            <li>
                 <img src="./images/main/img00.jpg" alt="Игорь Демьяненко" width="270" height="260">
                 <h3 class="team-title">Игорь Демьяненко</h3>
                 <p class="team-text">Product Designer</p>
@@ -97,13 +105,15 @@
                 <p class="team-text">UI Designer</p>
             </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer>
         <div class="address-background">
-        <a href="" class="logo link">Web<span class="logo-light">Studio</span></a>
+        <div class="container-footer">
+        <a href="" class="logo-down link">Web<span class="logo-light">Studio</span></a>
             <address>
-                <ul>
+                <ul class="address-down link list">
                     <li class="address-nav link list">
                         <a href="https://goo.gl/maps/EFmGtHn1fBkmAyLN6" class="link">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
@@ -114,7 +124,9 @@
                         <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
                     </li>             
                 </ul>
+                </div>
             </address>
+        </div>
         </div>
     </footer>
     </body>
