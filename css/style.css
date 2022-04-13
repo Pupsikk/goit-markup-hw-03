@@ -437,28 +437,6 @@ margin-bottom: 0;
 font-size: normal;
 }
 
-/* Для размеров кнопок */
-.btn-size {
-    font-weight: 700;
-font-size: 16px;
-line-height: 1.9;
-display: flex;
-text-align: center;
-}
-
-.btn-size-portfolio {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-}
-/*address*/
-
-.auth-item {
-display: flex;
-align-items: center;
-}
 /*CARD*/
 .cards .container {
     padding-top: 94px;
@@ -523,6 +501,23 @@ border: 1px solid #EEEEEE
 .card-flex:nth-child(3n) {
 margin-right: 0;
 }
+
+.btn-size {
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+text-align: center;
+}
+
+.btn-size-portfolio {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
 /*Button*/
 .button-link.list {
 margin-top: 0;
