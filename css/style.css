@@ -566,8 +566,6 @@ padding: 0;
 
 .button-link.list {
     display: flex;
-    list-style: none;
-    text-align: center;
     justify-content: center;
 }
 
@@ -577,6 +575,10 @@ padding: 0;
 }
 
 .button-link .list:last-child {
+    margin-right: 0;
+}
+
+.button-link.list .btn:last-child {
     margin-right: 0;
 }
 
