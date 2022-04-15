@@ -23,19 +23,19 @@ padding-left: 15px;
 margin: 0 auto;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /*additions*/
 .link {
     text-decoration: none;
 }
 
-.list {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-.border {
-    border: 1px solid #ECECEC
 }
 
 img {
@@ -82,18 +82,8 @@ color: var(--primary-light-color);
     align-items: center;
 }
 
-.header-connecter {
-    margin-left: auto;
-}
-
-.sait-nav {
-display: flex;
-padding: 0;
-margin: 0;  
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+.header {
+    border-bottom: 1px solid #ECECEC;
 }
 
 .sait-nav {
@@ -167,12 +157,12 @@ align-items: center;
 }
 
 .address-up-nav {
+margin-left: auto;
 color: var(--primary-text-color);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-margin: 0;
 padding-left: 0;
 }
 
@@ -214,11 +204,6 @@ margin-top: 0;
 }
 
 /* SPECIAL */
-.special .container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .special-header {
 position: absolute;
 white-space: nowrap;
@@ -268,8 +253,8 @@ margin-bottom: 0;
 }
 
 /* STUDY */
-.study .container {
-    padding-bottom: 94px;
+.study {
+    padding-top: 0;
 }
 
 .study-section {
@@ -299,7 +284,7 @@ letter-spacing: 0.03em;
 }
 
 /* TEAM */
-.team .container {
+.team {
     padding-bottom: 94px;
     padding-top: 94px;
 }
@@ -362,7 +347,7 @@ margin-bottom: 0;
 }
 
 /* FOOTER */
-.footer .container {
+.footer {
 padding-top: 60px;
 padding-bottom: 60px;
 }
@@ -417,7 +402,7 @@ font-size: normal;
 }
 
 /*CARD*/
-.cards .container {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
