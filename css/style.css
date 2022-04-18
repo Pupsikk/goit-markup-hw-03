@@ -8,6 +8,7 @@
     --background-color: #2F303A;
     --light-btn: #F5F4FA;
     --icon-color:#AFB1B8;
+    --icon-footer-color: #FFFFFF1A;
 
 }
 
@@ -392,7 +393,33 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 
 margin-top: 0;
-margin-bottom: 0;   
+margin-bottom: 16px;   
+}
+
+.team-soc-item + .team-soc-item {
+    margin-left: 10px;
+}
+
+.team-soc-link {
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary-light-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--icon-color);
+}
+
+.team-soc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-soc-link:hover {
+    background-color: var(--accent-color);
+    fill: var(--primary-light-color);
 }
 
 /* CLIENT */
@@ -439,6 +466,13 @@ fill: var(--accent-color);
 }
 
 /* FOOTER */
+/* FOOTER */
+.footer .container {
+display: flex;
+align-items: baseline;
+}
+
+
 .footer {
 padding-top: 60px;
 padding-bottom: 60px;
@@ -493,6 +527,54 @@ margin-bottom: 0;
 font-size: normal;
 }
 
+/* JOIN-FOOTER */
+.join-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-light-color);
+margin-bottom: 20px;
+margin-top: 0;
+}
+
+.join-item {
+width: 44px;
+height: 44px;
+    background-color: var(--icon-footer-color);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.join-item:hover {
+    background-color: var(--accent-color);
+}
+
+.join-icon {
+    fill: var(--primary-light-color);
+}
+
+.join-item + .join-item {
+margin-left: 10px;
+}
+
+.footer-section-join {
+margin-left: auto;
+align-items: center;
+justify-content: center;
+display: block;
+margin-left: 70px;
+}  
+
+.join-list {
+    display: flex;
+
+}
+
+/* PORTFOLIO */
 /*CARD*/
 .section {
     padding-top: 94px;
@@ -533,6 +615,12 @@ margin-bottom: -30px;
 display: flex;
 list-style: none;
 flex-wrap: wrap;
+}
+
+.card-flex:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-flex {
